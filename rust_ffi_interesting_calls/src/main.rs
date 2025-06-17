@@ -18,7 +18,6 @@ fn main() {
     }
 }   
 
-type HWND = u64;
 #[link(name = "user32")]
 unsafe extern "system" {
     // Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the registry.
